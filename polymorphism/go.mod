@@ -1,3 +1,3 @@
-module github.com/vterry/go-study/polymorphism
+module polymorphism
 
 go 1.16

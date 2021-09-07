@@ -13,7 +13,7 @@ func NewBackend() *Backend {
 }
 
 func (b Backend) SendEmail(email string) {
-	fmt.Println("You was evaluated as Backend Developer!!!")
+	fmt.Println("You were evaluated as Backend Developer!!!")
 }
 
 func (b *Backend) Evaluation(c *Candidate) {

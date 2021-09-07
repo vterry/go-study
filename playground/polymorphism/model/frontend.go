@@ -11,7 +11,7 @@ func NewFrontend() *Frontend {
 }
 
 func (f Frontend) SendEmail(email string) {
-	fmt.Println("You was evaluated as Frontend Developer!!!")
+	fmt.Println("You were evaluated as Frontend Developer!!!")
 }
 
 func (f *Frontend) Evaluation(c *Candidate) {
